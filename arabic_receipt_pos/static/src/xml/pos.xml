@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-name="Xml_Arabic">
+        <receipt align='center' width='50' value-thousands-separator='' >
+            <t>
+                <img t-if='receipt.company.logo' t-att-src='receipt.company.logo'/>
+                <br/>
+                <img t-if='malik' t-att-src="'data:image/png;base64,'+malik"/>
+            </t>
+        </receipt>
+    </t>
+</templates>

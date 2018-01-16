@@ -1,0 +1,25 @@
+
+               *************************Odoo POS Arabic Receipt Print**************************
+               *************************   By : Abdelmalik Yousif    **************************
+
+
+               *************************   Setup and Configuration   **************************
+
+*Step 1: Download "PosBox Image" from:( https://nightly.odoo.com/trunk/posbox/posbox_image_v16.zip ).
+*Step 2: Download "Etcher" and install it from( https://etcher.io/ ).
+*Step 3: Connect an SD card reader with the SD card inside.
+*Step 4: Open "Etcher" and select from your hard drive the Raspberry Pi .img or .zip file you downloaded in Step 1
+*Step 5: Select the SD card you wish to write your image to.
+*Step 6: Review your selections and click ( Flash! ) to begin writing data to the SD card.
+*Step 7: After writing completion make copy of the folder ( hw_escpos ) which attached with the module folder( docs/hw_escpos ).
+*Step 8: Open the SD card and go to ( home/pi/odoo/addons ) and delete the file "hw_escpos" and then paste the file you copied in Step 7.
+*Step 9: Unmount the SD card, insert it into the PosBox device and start it.
+*Step 10: Put the module ( arabic_receipt_pos ) in your addons and install it.
+
+
+*****************************************************************************************
+*Step 11: Install the following packages using your terminal:
+        a- easy_install wand
+        b- sudo apt-get install libmagickwand-dev
+*Step 12: Enjoy Arabic Printing.
+*******************************************************************************************
