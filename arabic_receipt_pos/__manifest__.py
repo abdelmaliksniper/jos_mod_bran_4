@@ -13,7 +13,7 @@
     'website': "abdelmalik19930@gmail.com",
     'category': 'Generic Modules',
     'version': '1.0',
-    'price': 300.0,
+    'price': 320.0,
     'currency': 'EUR',
     'depends': ['point_of_sale'],
 
