@@ -9,8 +9,8 @@
         
     """,
 
-    'author': "Abdelmalik Yousif",
-    'website': "abdelmalik19930@gmail.com",
+    'author': "Ad Mk Joseph",
+    'website': "",
     'category': 'Generic Modules',
     'version': '1.0',
     'price': 320.0,
